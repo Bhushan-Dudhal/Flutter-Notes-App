@@ -1,7 +1,8 @@
+# Tell GitHub Linguist to detect Dart properly
 lib/** linguist-language=Dart
 pubspec.yaml linguist-language=Dart
 
-# हे optional पण useful
-ios/** linguist-vendored
+# Ignore auto-generated / platform-specific code
 android/** linguist-vendored
+ios/** linguist-vendored
 build/** linguist-generated
