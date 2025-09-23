@@ -1,0 +1,7 @@
+lib/** linguist-language=Dart
+pubspec.yaml linguist-language=Dart
+
+# हे optional पण useful
+ios/** linguist-vendored
+android/** linguist-vendored
+build/** linguist-generated
